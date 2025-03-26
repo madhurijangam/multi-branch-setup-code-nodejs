@@ -16,7 +16,7 @@ pipeline {
         }
       }
 
-         stage("Deploy npm cloud application") { 
+         stage("Deploy application after webhook") { 
          steps { 
            sh 'echo "deploying application..."'
          }
